@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="header-left">
+                <!--This is the spacer on the left side.-->
+            </div>
+            <div class="header-border">
+                <!-- The elements are placed in grid -->
+                <div class="header-center">
+                <!--This is the central portion of the header -->
+                <a href="#" class="work-nav"onClick="openNav()">&#9776;</a>
+                <a href="#" class="home">AKHIL HEMANTH</a>
+                <a href="#" class="home-small">AH</a>
+                <a href="#" class="filter-nav" onClick="openFilter()">&#128269;</a>
+            </div>
+                <div class="border"></div>
+            </div>
+            <div class="header-right">
+                <!--This is the spacer on the left side.-->
+            </div>
+        </div>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+            <a href="#">WORK</a>
+            <a href="#">ABOUT</a>
+            <a href="#">GALLERY</a>
+            <a href="#">CONTACT</a>
+        </div>
+        <div class="main-container" id="main">
+            <div class="container-left">
+            </div>
+            <div class="grid-container">
+                <div class="grid-item" id="grid-item"onClick="expand()">
+                    <a href="" class="link">Survey Page</a>
+                </div>
+                <div class="grid-item">
+                    <a href="#" class="link">Landing Page</a>
+                </div>
+                <div class="grid-item">
+                    <a href="" class="link">Product Page</a>
+                </div>
+                <div class="grid-item">
+                    <a href="" class="link">Heart Message</a>
+                </div>
+                <div class="grid-item">
+                    <a href="" class="link">Architecture School</a>
+                    </div>
+                <div class="grid-item">
+                    <a href="" class="link">S Civic Center</a>
+                </div>
+                <div class="grid-item">
+                    <a href="" class="link">Pittsburgh Project</a>
+                </div>
+                <div class="grid-item">
+                    <a href="" class="link">Tennis Village</a>
+                </div>
+                <div class="grid-item">
+                    <a href="" class="link">Sorting Elevation</a>
+                </div>
+                <div class="grid-item">
+                    <a href="" class="link">Elmwood</a>
+                </div>
+                <div class="grid-item">
+                    <a href="" class="link">413 Union Street</a>
+                </div>
+            </div>
+            <div class="container-right">
+            </div>
+        </div>
+        <div id="myFilterbar" class="filterbar">
+            <a href="javascript:void(0)" class="closebtn" onClick="closeFilter()">&times;</a>
+            <a href="#">ARCHITECTURE</a>
+            <a href="#">AR</a>
+            <a href="#">WEB EXPERIENCE</a>
+            <a href="#">PYTHON</a>
+        </div>
+        <footer class="footer">
+            <div class="footer-left"></div>
+            <div class="footer-center">
+                <hr>
+                <p>©Akhil Hemanth</p>
+            </div>
+            <div class="footer-right"></div>
+        </footer>
+    </body>
+</html>
