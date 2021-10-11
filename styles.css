@@ -1,18 +1,18 @@
 @import url("https://use.typekit.net/kee4zhb.css");
 
 body {
-    margin: 0;
-    overflow-x: hidden;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .header {
-    width: 100%;
-    display: grid;
-    position: sticky;
-    grid-template-columns: 0.25fr 4fr 0.25fr;
-    background-color: white;
-    top: 0;
-    z-index: 2;
+  width: 100%;
+  display: grid;
+  position: sticky;
+  grid-template-columns: 0.25fr 4fr 0.25fr;
+  background-color: white;
+  top: 0;
+  z-index: 2;
 }
 
 .sidebar {
@@ -25,7 +25,7 @@ body {
     background-color: #29347A;
     overflow-x: hidden;
     padding-top: 20px;
-    transition-duration: 0.35s
+    transition: 0.3s;
 }
 
 .sidebar a {
@@ -40,48 +40,48 @@ body {
 }
 
 .header-border {
-    display: grid;
-    grid-template-rows: 55px 10px;
-    padding-top: 10px;
-    box-shadow: 0 8px 5px -6px grey;/* drop shadow for the header*/
+  display: grid;
+  grid-template-rows: 55px 10px;
+  padding-top: 10px;
+  box-shadow: 0 8px 5px -6px grey;/* drop shadow for the header*/
 }
 
 .header-center {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* aligns the elemnts across a central axis*/
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* aligns the elemnts across a central axis*/
+}
 
 .work-nav {
-    font-family: "paralucent";
-    font-weight: 300;
-    font-size: 18px;
-    text-decoration: none;
-    color: #29347A;
+  font-family: "paralucent";
+  font-weight: 300;
+  font-size: 18px;
+  text-decoration: none;
+  color: #29347A;
 }
 
 .home {
-    display: none;
+  display: none;
 }
 
 .home-small {
-    font-family: "paralucent-condensed";
-    font-weight: bold;
-    font-size: 30px;
-    color: #29347A;
-    text-decoration: none;
-    }
+  font-family: "paralucent-condensed";
+  font-weight: bold;
+  font-size: 30px;
+  color: #29347A;
+  text-decoration: none;
+  }
 
 .filter-nav {
-    font-family: "paralucent";
-    font-weight: 300;
-    font-size: 16px;
-    text-decoration: none;
-    color: #29347A;
+  font-family: "paralucent";
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none;
+  color: #29347A;
 }
 
 .border {
-    border-bottom: 4px solid #29347A;
+  border-bottom: 4px solid #29347A;
 }
 
 .header-left {
@@ -89,42 +89,42 @@ body {
 }
 
 .header-border {
-    /*The spacer on the left*/
+  /*The spacer on the left*/
 }
 
 .header-right {
-    /*The spacer on the left*/
+  /*The spacer on the left*/
 }
 #main{
-    transition-duration: 0.35s;
+  transition-duration:  0.35s;
 }
 
 .main-container {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 0.25fr 4fr 0.25fr;
-    margin-top: 20px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 0.25fr 4fr 0.25fr;
+  margin-top: 20px;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 10px 10px;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 10px 10px;
 }
 
 .grid-item {
-    padding: 1.5rem 6rem 1.5rem 1rem; /* this is the size for the box*/
-    background-color: #C6DCED;
-    box-shadow: 0 6px 8px -7px grey; 
-    }
+  padding: 1.5rem 6rem 1.5rem 1rem; /* this is the size for the box*/
+  background-color: #C6DCED;
+  box-shadow: 0 6px 8px -7px grey; 
+}
 
 /*each heading with in the blue box individually */
 .link {
-    font-family: "paralucent";
-    font-size: 24px;
-    font-weight: 500;
-    text-decoration: none;
-    color: white;
+  font-family: "paralucent";
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
 }
 
 /* underline on hover*/
@@ -180,21 +180,21 @@ a.link:focus::after {
 }
 
 .footer {
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: 0.25fr 4fr 0.25fr;
-    text-align: center;
-    background-color: white;
-    width: 100%;
-    bottom: 0;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 0.25fr 4fr 0.25fr;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  bottom: 0;
 }
 
 .footer-center p {
-    font-family: "paralucent";
-    font-size: 14px;
-    font-weight: 300;
-    padding: 8px;
-    color: #29347A;
+  font-family: "paralucent";
+  font-size: 14px;
+  font-weight: 300;
+  padding: 8px;
+  color: #29347A;
 }
 
 hr {
@@ -203,100 +203,114 @@ hr {
 }
 
 @media (min-width: 577px) {
-    .home-small{
-        display: none;
-    } 
-
-    .home{
-    display: unset;
-    font-family: "paralucent-condensed";
-    font-weight: bold;
-    font-size: 30px;
-    color: #29347A;
-    text-decoration: none;
-    }
-
-    .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px 10px;
-    }
-
-    .grid-item {
+  .home-small{
+    display: none;
+  } 
+  
+  .home{
+  display: unset;
+  font-family: "paralucent-condensed";
+  font-weight: bold;
+  font-size: 30px;
+  color: #29347A;
+  text-decoration: none;
+  }
+  
+  .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px 10px;
+  }
+  
+  .grid-item {
     padding: 40% 10% 40% 10%; /* this is the size for the box*/
     background-color: #C6DCED;
     box-shadow: 0 6px 8px -7px grey;
-    }
-    .link{
-        font-size: 38px;
-        text-align: center;
-    }
+ 
+  }
+  .link{
+    font-size: 2.2em;
+    text-align: center;
+  }
 
-    /*Fade in*/
-    a.link::after {
-    bottom: 0;
-        left: 35%;
-        width: 25%;
-        height: 0.12em;
-    }
-
-
-    .footer {
-    background-color: white;
-    width: 100%;
-    bottom: 0;
-    }
+/*Fade in*/
+a.link::after {
+  bottom: 0;
+	left: 35%;
+	width: 25%;
+	height: 0.12em;
+}
+  
+  
+  .footer {
+  background-color: white;
+  width: 100%;
+  bottom: 0;
+  }
 }
 
 @media (min-width: 769px){
-
-    .header {
-    grid-template-columns: 0.1fr 4fr 0.1fr;
-    }
-    
-    .main-container {
-    grid-template-columns: 0.10fr 4fr 0.10fr;
-    }
-    
-    
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 13px 13px;
-    }
-
-    .grid-item {
-        padding: 40% 10% 40% 10%; /* this is the size for the box*/
-        background-color: #C6DCED;
-        box-shadow: 0 6px 8px -7px grey;
-    }
-    
-
-    /*Fade in*/
-    a.link::after {
-        left: 35%;
-        width: 25%;
-        height: 0.12em;
-        background-color: white;
-        opacity: 0;
-        transition: opacity 300ms, transform 300ms;
-    }
-    
-    .footer {
-    grid-template-columns: 0.10fr 4fr 0.10fr;
-    }
-    
-    }
-
-    @media (min-width: 993px) {
-    
-    .grid-container {
+  
+  .header {
+  grid-template-columns: 0.1fr 4fr 0.1fr;
+  }
+  
+  .main-container {
+  grid-template-columns: 0.10fr 4fr 0.10fr;
+  }
+  
+  
+  .grid-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    }
-    
-    .link {
-    font-size: 40px;
-    }
-    
-    }
+    grid-template-columns: repeat(3,1fr);
+    gap: 13px 13px;
+  }
+  
+  .grid-item {
+    padding: 40% 10% 40% 10%; /* this is the size for the box*/
+    background-color: #C6DCED;
+    box-shadow: 0 6px 8px -7px grey;
+  }
+  
+
+  /*Fade in*/
+  a.link::after {
+    left: 35%;
+    width: 25%;
+    height: 0.12em;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .footer {
+  grid-template-columns: 0.10fr 4fr 0.10fr;
+}
+  
+}
+
+@media (min-width: 993px) {
+  
+  .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  }
+  
+  .link {
+  font-size: 2.5em;
+  }
+  
+}
+
+@media (min-width: 1900px) {
+  
+  .grid-container {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  }
+  
+  .link {
+  font-size: 3em;
+  }
+  
+}
